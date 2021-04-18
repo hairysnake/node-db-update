@@ -27,7 +27,9 @@ Database migration tool for node projects
 * Statistics - execution time for all scripts and their commands
 * Logging - execution logging to standard io / log files
 * It prevents concurrent migration execution (optymistic locking on the level of database)
-* Custom attributes (ex. service or monolith version) 
+* Custom attributes (ex. service or monolith app version)
+* Script execution avoiding on selected environments
+* Execution chain / changeset (few scripts that should be treat and execute toogether - ex. from one feature branch) 
 
 ### Technology stack
 
