@@ -29,7 +29,8 @@ Database migration tool for node projects
 * It prevents concurrent migration execution (optymistic locking on the database level)
 * Custom attributes (ex. service or monolith app version)
 * Script execution avoiding on selected environments
-* Execution chain / changeset (few scripts that should be treated and executed toogether - ex. from one feature branch) 
+* Execution chain / changeset (few scripts that should be treated and executed toogether - ex. from one feature branch)
+* Simple configuration in json
 
 ### Technology stack
 
