@@ -8,7 +8,7 @@ Database migration tool for node projects
 * General and detailed documentation available describing all the necessary commands 
 * Every developer can make changes in the database without deep knowledge of sql commands (json -> sql transformation) and datatypes (types mapping)
 * Advanced user is not limited (possibility to write native queries)
-* Tools that help to generate files and commands (part of script)
+* Tool that help to generate files and commands (part of script)
 
 ### Main features :
 
@@ -21,7 +21,7 @@ Database migration tool for node projects
 * Data loading from files (bulk loading where available)
 * Migration files verification (before execution)
   * Errors
-  * Advices - no primary key, possbile foreign key
+  * Advices - no primary key, possbile foreign key (one can apply advices automatically)
 * Schema and environment management
 * Different formats of scripts : json/xml/plain text
 * Statistics - execution time for all scripts and their commands
