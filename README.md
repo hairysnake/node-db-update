@@ -12,7 +12,7 @@ Database migration tool for node projects
 
 ### Main features :
 
-* 
+* The most used types of SQL databases are supported
 * All types of commands available : DML, DDL, DCL
 * Script or scripts reversal
 * Asynchronous scripts execution
