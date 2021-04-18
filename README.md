@@ -18,7 +18,10 @@ Database migration tool for node projects
   * long running data migrations
   * big index creation
 * Data loading from files (bulk loading where available)
-* Migration files verification (before execution(
+* Migration files verification (before execution)
   * Errors
   * Advices - no primary key, possbile foreign key
 * Schema and environment management
+* Different formats of scripts : json/xml/plain text
+* Statistics - execution time for all scripts and their commands
+* Logging - execution logging to standard io / ?
