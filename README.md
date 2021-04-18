@@ -4,7 +4,7 @@ Database migration tool for node projects
 ### Central tents of the concept :
 
 * Easy to understand and use
-* Almost no up-front cost
+* Almost no up-front cost (the simplest case - no configuration needed - DATABASE_URL)
 * General and detailed documentation available describing all the necessary commands 
 * Every developer can make changes in the database without deep knowledge of sql commands (json -> sql transformation) and datatypes (types mapping)
 * Advanced user is not limited (possibility to write native queries)
@@ -12,6 +12,7 @@ Database migration tool for node projects
 
 ### Main features :
 
+* 
 * All types of commands available : DML, DDL, DCL
 * Script or scripts reversal
 * Asynchronous scripts execution
@@ -24,4 +25,4 @@ Database migration tool for node projects
 * Schema and environment management
 * Different formats of scripts : json/xml/plain text
 * Statistics - execution time for all scripts and their commands
-* Logging - execution logging to standard io / ?
+* Logging - execution logging to standard io / log files
