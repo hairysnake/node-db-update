@@ -15,15 +15,18 @@ Database migration tool for node projects
 * The most used types of SQL databases are supported
 * All types of commands available : DML, DDL, DCL
 * Script or scripts reversal
-* Asynchronous scripts execution
-  * long running data migrations
-  * big index creation
+* Parallel script execution
+  * big migration divided into few pieces to make it faster
+  * scripts that can be executed together
+  * bulk loading of data from external data source
+* Asynchronous scripts execution (in background)
+  * big index creation (make sure it won't be needed in next scripts)
 * Data loading from files (bulk loading where available)
 * Migration files verification (before final execution)
   * Errors
   * Advices - no primary key, possbile foreign key (one can apply advices automatically)
 * Schema and environments management
-* Different formats of scripts : json/xml/plain text
+* Different formats of scripts : json/xml/yaml
 * Statistics - execution time for all scripts and their commands
 * Logging - execution logging to standard io / log files
 * It prevents concurrent migration execution (optymistic locking on the database level)
