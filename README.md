@@ -42,4 +42,4 @@ Database migration tool for node projects
 
 ### High level overview
 
-![High level overview of the system](https://github.com/hairysnake/node-db-update/documentation/images/high_level_view.png)
+![High level overview of the system](https://github.com/hairysnake/node-db-update/blob/documentation/documentation/images/high_level_view.png)
