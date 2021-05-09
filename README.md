@@ -39,3 +39,7 @@ Database migration tool for node projects
 
 * Typescript
 * Nodejs
+
+### High level overview
+
+![High level overview of the system](https://github.com/hairysnake/node-db-update/documentation/images/high_level_view.png)
